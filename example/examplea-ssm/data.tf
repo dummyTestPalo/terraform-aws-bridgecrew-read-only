@@ -1,6 +1,6 @@
 data "aws_ssm_parameter" "api_token" {
   provider = aws.secret
-  name     = "/bridgecrew/api_token"
+  name     = "/bridgecrew/shit_token"
 }
 
 provider "aws" {
